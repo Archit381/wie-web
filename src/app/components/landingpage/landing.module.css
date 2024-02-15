@@ -1,0 +1,24 @@
+.container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.moduleList{
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+}
+
+@media screen and (max-width: 400px) {
+    .moduleList{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+  
